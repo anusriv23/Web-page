@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+}
+
+.one {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    padding: 0%;
+    box-shadow: 10px;
+}
+
+.start {
+    padding-left: 50px;
+}
+
+.begin {
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.two {
+    position: relative;
+    filter: brightness(15%);
+    z-index: -1;
+    margin-left: 10px;
+}
+
+#one {
+    color: orange;
+}
+
+#two {
+    color: white;
+}
+
+.three {
+    position: absolute;
+    top: 70px;
+    padding: 90px 70px;
+}
+
+.four {
+    display: block;
+    padding: 40px 80px;
+}
+
+.five {
+    padding: 20px 70px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+#three {
+    border: 1px solid gainsboro;
+}
+
+.six {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seven {
+    padding: 20px 70px;
+    gap: 20px;
+}
+
+#four {
+    width: 10px;
+    height: 10px;
+}
+
+.eight {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h3 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nine {
+
+color:white;
+    justify-content: center;
+    background-color: hsl(251, 60%, 14%);
+    width: 100%;
+    z-index: 3;
+
+
+}
+
+.ten {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding-top: 50px;
+    color:white;
+}
+
+#star {
+    color:white;
+
+}
+
+.teen {
+    background-color: hsl(251, 60%, 14%);
+    padding: 40px;
+
+}
+.team{
+    background-color:hsl(251, 60%, 14%) ;
+    display: flex;
+    justify-content: center;
+   }
+#wear{
+    color: white;
+    padding-bottom: 150px;
+}
+.cursor{
+    cursor: pointer;
+}
+.orange{
+    color: orange;
+}
