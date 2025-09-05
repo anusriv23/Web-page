@@ -1,0 +1,210 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+    
+}
+.one {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgb(238, 235, 228);
+    width: 100%;
+    z-index: 3;
+    padding: 0%;
+    box-shadow: 10px;
+}
+
+.start {
+    padding-left: 50px;
+}
+.begin {
+    display: flex;
+    gap: 30px;
+    padding-right: 100px;
+
+}
+
+.cursor{
+    cursor: pointer;
+}
+.orange{
+    color: orange;
+}
+.side{
+    display: flex;
+}
+.anu6{
+    
+    top:10px;
+    padding-left: 20;
+   position: relative;
+    animation-name:example ;
+ animation-duration: 4s;
+ animation-delay: 2s;
+ animation-iteration-count: infinite;
+}
+@keyframes example{
+    0%{left:0px; top:0px;}
+  25%  { left:20px; top:0px;}
+  50%  { left:20px; top:10px;}
+  75%  { left:0px; top:10px;}
+  100% { left:0px; top:0px;}
+}
+    
+
+.sider{
+    position: relative;
+    z-index: -1;
+
+}
+.home1{
+    position: absolute;
+    top:250px;
+    padding-left:50px
+}
+#white{
+color:white;
+}
+.side2{
+    position:relative;
+    z-index:-1;
+    padding-left: 10px;
+}
+.ho{
+position:absolute;
+top:250px;
+padding-left: 50px;
+}
+.hom{
+position:absolute;
+    top:250px;
+    padding-left: 50px;
+}
+#hidden{
+display: none;
+border: 1px solid aqua;
+padding: 15px;
+background-color: brown;
+}
+#show{
+    cursor: pointer;
+}
+.dharani2{
+    position: relative;
+     filter: brightness(5%);
+   padding: 40px 40px;
+    z-index: -1;
+}
+.dharani{
+    position: absolute;
+    display: flex;
+    top:530px;
+
+}
+#dharani3{
+    padding-top: 20px;
+    width:150px;
+    height: 35px;
+    text-align: center;
+    background-color: rgb(219, 69, 10);
+    color: white;
+  
+}
+.dharani4{
+    padding-top: 30px;
+    padding-left: 300px;
+}
+.anu3{
+    color: white;
+ padding-left: 90px;
+ padding-top: 20px;
+ line-height: 1;
+
+}
+#anu4{
+    color:  rgb(219, 69, 10);
+}
+.center{
+    padding-top: 50px;
+  padding-left:100px; 
+  padding-bottom: 50px;
+}
+#move{
+  position:absolute;
+    top:250px;
+   
+     opacity: 0.3;
+    border: none;
+    max-width: 200px;
+   transform: translateY(-50%);
+   display: flex;
+   justify-content: space-between;
+}
+#moveleft{
+
+   margin-left:50px;
+      cursor: pointer;
+  height: 50px;
+color:black;
+font-size:xx-large;
+font-weight:bolder;
+}
+#moveright{
+   margin-left: 1150px;
+  cursor: pointer;
+  height: 50px;
+color:black;
+font-size:xx-large;
+font-weight:bolder;
+}
+#anu7{
+    border-radius: 100%;
+    background-color: blue;
+    width: 50px;
+}
+.anu8{
+    display: flex;
+}
+
+.anu11{
+    text-transform: uppercase;
+   padding-left: 30px;
+}
+.anu9{
+    padding-left: 0px;
+    border:1px solid;
+    
+margin-left:  100px;
+margin-top: 0px;
+width: 700px;
+flex-wrap: nowrap;
+}
+.anu14{
+margin-left: 30px;
+margin-right: 40px;
+display: flex;
+justify-content: center;
+}
+
+#anu12{
+    color: gray;
+    text-transform: capitalize;
+}
+#flex2{
+    color: rgb(105, 103, 103);
+padding-left: 30px;
+padding-right: 30px;
+line-height: 1.8;
+font-size:medium;
+}
+.anu15{
+    display: flex;
+    gap:5px;
+}
+.anu16{
+    display:flex;
+    gap:370px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
